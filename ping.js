@@ -1,3 +1,3 @@
-mc.regPlayerCmd(`ping`, `Ping check`, function(pl) {
-    pl.tell(`Your ping: `+ pl.getDevice().avgPing +``)
-})
+mc.regPlayerCmd(`ping`, `Ping check.`, function(player) {
+    player.tell(`Your ping: ${player.getDevice().avgPing}`)
+});
